@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jmatch-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Arturo Hernández Maldonado</dc:creator>
+    <dc:creator>Agnes Simonet</dc:creator>
+    <dc:creator>Agnès Simonet</dc:creator>
+    <dc:creator>Agn&amp;#x00E8;s Simonet</dc:creator>
+    <dc:title>Identificaci&amp;#x00F3;n gr&amp;#x00E1;fica de secuencias mel&amp;#x00F3;dicas</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>Identificaci&amp;#x00F3;n gr&amp;#x00E1;fica de secuencias mel&amp;#x00F3;dicas</title>
+
+<timer><seconds>60</seconds><include-timer>1</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title>Reading text</reading-title>
+<reading-text>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .
+Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla la bla bla bla bla bla bla bla.
+&amp;#x003C;audio data-audio=&quot;mini&quot;&amp;#x003E;
+&amp;#x003C;source src=&quot;sounds/andblablabla.mp3&quot; type=&quot;audio/mp3&quot;/&amp;#x003E;
+&amp;#x003C;a href=&quot;sounds/andblablabla.mp3&quot; title=&quot;sounds/andblablabla.mp3&quot;&amp;#x003E;sounds/andblablabla.mp3&amp;#x003C;/a&amp;#x003E;
+&amp;#x003C;/audio&amp;#x003E; </reading-text>
+
+</reading>
+
+<matching-exercise>
+<default-right-item>???</default-right-item>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;S117.jpg&quot; alt=&quot;S117.jpg&quot; title=&quot;S117&quot; width=&quot;280&quot; height=&quot;67&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>&amp;#x003C;audio data-audio=&quot;mini&quot;&amp;#x003E;&amp;#x003C;source src=&quot;t.mp3&quot; type=&quot;audio/mp3&quot;/&amp;#x003E;&amp;#x003C;/audio&amp;#x003E;</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;S112.jpg&quot; alt=&quot;S112.jpg&quot; title=&quot;S112&quot; width=&quot;280&quot; height=&quot;67&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>&amp;#x003C;audio data-audio=&quot;mini&quot;&amp;#x003E;&amp;#x003C;source src=&quot;s.mp3&quot; type=&quot;audio/mp3&quot;/&amp;#x003E;&amp;#x003C;/audio&amp;#x003E;</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;S114.jpg&quot; alt=&quot;S114.jpg&quot; title=&quot;S114&quot; width=&quot;280&quot; height=&quot;67&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; text-align: center;&quot;/&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>&amp;#x003C;audio data-audio=&quot;mini&quot;&amp;#x003E;&amp;#x003C;source src=&quot;w.mp3&quot; type=&quot;audio/mp3&quot;/&amp;#x003E;&amp;#x003C;/audio&amp;#x003E;
+</text>
+<fixed>0</fixed>
+</right-item></pair>
+</matching-exercise>
+</data>
+
+<hotpot-config-file>
+<jmatch>
+<exercise-subtitle>Escucha cada uno de los audios y col&amp;#x00F3;calo en la imagen que le corresponde.</exercise-subtitle>
+<instructions>&amp;#x003C;audio data-audio=&quot;mini&quot;&amp;#x003E;&amp;#x003C;source src=&quot;presentacion2.mp3&quot; type=&quot;audio/mp3&quot;/&amp;#x003E;&amp;#x003C;/audio&amp;#x003E;</instructions>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>4</questions-to-show>
+<shuffle-questions>1</shuffle-questions>
+<separate-javascript-file>0</separate-javascript-file>
+<next-caption>Next</next-caption>
+<delete-caption>Delete</delete-caption>
+<guess-correct>Para m&amp;#x00E1;s ejercicios escribe a rdidacticosmusica@gmail.com</guess-correct>
+<guess-incorrect>Corrige</guess-incorrect>
+</jmatch>
+
+<global>
+<your-score-is>Tu efectividad es del </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<times-up>TIEMPO!    &amp;#x003C;br /&amp;#x003E;  &amp;#x003C;img src=&quot;clock.gif&quot; alt=&quot;clock.gif&quot; title=&quot;clock&quot; width=&quot;180&quot; height=&quot;179&quot;/&amp;#x003E;</times-up>
+<check-caption>Comprobar respuestas</check-caption>
+<ok-caption>OK</ok-caption>
+<next-ex-caption>Exercice suivant</next-ex-caption>
+<back-caption>Retour</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>index_tav.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>100%</font-size>
+<page-bg-color>#FFFFFF</page-bg-color>
+<title-color>#000066</title-color>
+<ex-bg-color>#f7f7f7</ex-bg-color>
+<text-color>#000066</text-color>
+<link-color>#deffde</link-color>
+<vlink-color>#ff7575</vlink-color>
+<nav-bar-color>#ffffff</nav-bar-color>
+<formmail-url>../../traitement.php</formmail-url>
+<email></email>
+<name-please>Entrez votre nom</name-please>
+<user-string-1>5</user-string-1>
+<user-string-2>17px</user-string-2>
+<user-string-3>0</user-string-3>
+<header-code>&amp;#x003C;style&amp;#x003E;
+div.ReadingContainer{flex-grow: 20;}
+div.ExerciseContainer{flex-grow: 80;}
+&amp;#x003C;/style&amp;#x003E;</header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jmatch-file>
